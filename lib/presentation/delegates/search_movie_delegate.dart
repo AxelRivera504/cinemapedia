@@ -125,7 +125,6 @@ class _MoviesItens extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    final colors = Theme.of(context).colorScheme;
     final textStyles = Theme.of(context).textTheme;
     final size = MediaQuery.of(context).size;
 
@@ -161,7 +160,7 @@ class _MoviesItens extends StatelessWidget {
                   Text(movie.title, style: textStyles.titleMedium),
                   (movie.overview.length > 100)
                   ? Text('${movie.overview.substring(0,100)}...')
-                  :Text(movie.overview),
+                  : Text(movie.overview),
       
                   Row(
                     children: [

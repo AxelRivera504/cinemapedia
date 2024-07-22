@@ -68,7 +68,7 @@ class _Slide extends StatelessWidget {
                 DecoratedBox(decoration: BoxDecoration( color: Colors.black12));
               }
               return GestureDetector(
-                onTap: () => context.push('/movie/${movie.id}'),
+                onTap: () => context.push('/home/0/movie/${movie.id}'),
                 child: FadeIn(child: child),
               );
             },
