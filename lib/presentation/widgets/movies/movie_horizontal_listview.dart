@@ -26,7 +26,7 @@ class _MovieHorizontalListViewState extends State<MovieHorizontalListView> {
 
   final scrollController = ScrollController();
 
-    @override
+  @override
   void initState() {
     super.initState();
 
@@ -69,7 +69,6 @@ class _MovieHorizontalListViewState extends State<MovieHorizontalListView> {
               physics: const BouncingScrollPhysics(),
               itemBuilder: (context, index) {
                   return FadeInRight(child: _SlideHorizontal(movie: widget.movies[index]));
-
                 },
               )
             )

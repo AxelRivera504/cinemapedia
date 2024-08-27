@@ -2,7 +2,7 @@ import 'package:cinemapedia/presentation/providers/providers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../presentation/widgets/widgets.dart';
+import '../../widgets/widgets.dart';
 
 
 class HomeView extends ConsumerStatefulWidget {

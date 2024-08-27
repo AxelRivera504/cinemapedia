@@ -5,3 +5,6 @@ export 'movies/movies_slider.dart';
 export 'movies/movie_horizontal_listview.dart';
 
 export 'shared/full_loader_screen.dart';
+
+export 'movies/movie_poster_link.dart';
+export 'movies/movie_masonry.dart';
